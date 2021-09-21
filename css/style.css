@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container{
+  width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color: #F6F6F6;;
+}
+
+.main-head-side{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-part{
+  display: flex;
+  align-items: center;
+
+}
+.logo{
+  color:#7296EE;
+  padding: 5px ;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 35px ;
+
+}
+.logo:hover{
+  text-decoration: underline #7296EC;
+}
+.logo:active{
+  opacity: 0.7;
+}
+
+
+.valuta-kurs{
+  margin-right: 25px;
+}
+
+.valuta-kurs span{
+  color: #7296EE;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+.search {
+  position: relative;
+  margin-right: 35px ;
+}
+
+.search-bar{
+  width: 275px;
+  height: 45px ;
+  border: none;
+  border-radius: 60px;
+  padding-left: 40px;
+}
+
+.search-absalute{
+  position: absolute;
+  left: 17px ;
+  top: 2px;
+  color: #8D8D8D;
+  cursor: pointer;
+}
+
+.language{
+  padding: 10px 5px;
+  background-color: #DCE6FF;
+  border-radius: 39px;
+  margin-right: 25px;
+}
+
+.language span{
+  color: #A6A6A6;
+  cursor: pointer;
+  width: 70px;
+}
+
+.current{
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 50%;
+  color: #333 !important;
+  margin-right: 2px;
+}
+
+.btn-main{
+  padding: 13px 20px;
+  background: #7296EC;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+/* nav link  */
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 30px 0 ;
+}
+
+.nav-item a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7F7F7F;
+}
