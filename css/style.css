@@ -82,6 +82,7 @@ header{
   border: none;
   border-radius: 60px;
   padding-left: 40px;
+  outline: none;
 }
 
 .search-absalute{
