@@ -51,9 +51,8 @@ header{
   margin-right: 35px ;
 
 }
-.logo:hover{
-  text-decoration: underline #7296EC;
-}
+
+
 .logo:active{
   opacity: 0.7;
 }
@@ -81,7 +80,8 @@ header{
   height: 45px ;
   border: none;
   border-radius: 60px;
-  padding-left: 40px;
+  padding-left: 45px;
+  padding-right: 20px;
   outline: none;
 }
 
@@ -130,7 +130,8 @@ header{
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  margin: 30px 0 ;
+  padding: 30px;
+  background-color: #fff;
 }
 
 .nav-item a {
