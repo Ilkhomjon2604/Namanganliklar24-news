@@ -140,3 +140,82 @@ a{
   line-height: 21px;
   color: #7F7F7F;
 }
+
+
+/* MAIN AD  */
+.ad-banner{
+  margin: 40px 0 ;
+}
+
+.main-news{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.news{
+  width: 393px;
+  padding: 15px;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  margin-bottom: 10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+}
+
+.news-text{
+  font-size: 16px;
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.news-img{
+  border-radius: 10px;
+}
+
+.news-sourse{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.news-sourse span{
+  font-size: 12px;
+  line-height: 14px;
+  color: #5E5F61;
+  margin-left: 10px ;
+}
+
+
+/* offer part  */
+.offer-banner{
+  width: 1050px;
+  margin: 60px auto ;
+  padding: 25px 50px ;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #FFD7BA, #e67b2eb9);
+  align-items: center;
+  border-radius: 10px;
+
+}
+
+.offer-banner h3{
+  width: 400px;
+}
+.offer-banner-btn{
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #F78B3B;
+}
