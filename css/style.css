@@ -9,8 +9,7 @@ body{
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   line-height: 22px;
-  max-width: 1400px;
-  margin: 0 auto;
+
 }
 
 .container{
@@ -207,7 +206,7 @@ a{
   padding: 25px 50px ;
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #FFD7BA, #e67b2eb9);
+  background-image:url(../img/offer-bg.jpg);
   align-items: center;
   border-radius: 10px;
 
@@ -266,7 +265,7 @@ a{
 }
 
 .text-box p{
-  margin: 10px 0 ;
+  margin: 13.5px 0 ;
   font-size: 16px;
 line-height: 22px;
 color: #4A4B4C;
@@ -310,7 +309,7 @@ color: #5E5F61;
 }
 
 .world-news-hr{
-  margin: 20px 0 ;
+  margin: 15px 0 ;
 }
 
 
@@ -327,5 +326,4 @@ color: #5E5F61;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
 }
