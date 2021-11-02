@@ -257,11 +257,13 @@ ul{
 
 /* INDEX World news part  */
 
-.world-news-general{
+.world-news-general-pro{
   display: flex;
   margin-bottom: 100px;
+  margin-top: 50px;
 
 }
+
 .world-news-title{
   margin: 20px;
 }
@@ -277,6 +279,17 @@ ul{
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+.world-news-left-items-inside{
+  width: 795px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 
 .world-news-left-items img{
   margin-right: 15px;
@@ -447,4 +460,35 @@ footer{
 .social-media-icons img {
   margin-right: 25px;
   cursor: pointer;
+}
+
+.inside-title{
+  font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 36px;
+color: #000000;
+margin: 30px 0 20px 0;
+}
+
+.inside-img{
+  border-radius: 13px;
+  margin-bottom: 25px;
+}
+
+.inside-text{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px !important;
+  line-height: 30px;
+  color: #000000;
+  margin: 25px 0 50px 0;
+
+}
+
+.inside-h{
+  order: 1;
+  background-color: #fdfdfd;
+  max-width: 797px;
 }
