@@ -1,3 +1,31 @@
+/* rubik-regular - latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+  url("../fonts/rubik-v14-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/rubik-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-500 - latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+  url("../fonts/rubik-v14-latin-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/rubik-v14-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-700 - latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+  url("../fonts/rubik-v14-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/rubik-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -6,7 +34,7 @@
 }
 
 body{
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 22px;
 
@@ -255,6 +283,11 @@ ul{
 .world-news-left-sourse{
   display: flex;
   align-items: center;
+  font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #5E5F61;
 }
 .world-news-left-sourse small{
   margin-right: 5px;
@@ -306,7 +339,9 @@ ul{
   color: #000;
   margin-bottom: 10px;
 }
-.world-news-right-sourse{
+
+.world-news-right-source{
+  font-weight: normal;
   font-size: 13px;
   line-height: 15px;
   color: #5E5F61;
