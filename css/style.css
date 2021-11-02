@@ -30,6 +30,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik";
 
 }
 
@@ -284,28 +285,32 @@ ul{
   display: flex;
   align-items: center;
   font-weight: normal;
-font-size: 12px;
-line-height: 14px;
+  font-size: 12px;
+  line-height: 14px;
 
-color: #5E5F61;
+  color: #5E5F61;
 }
 .world-news-left-sourse small{
   margin-right: 5px;
 }
 
 .news-item-title{
+  font-family: Rubik;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-  color: #000;
-  margin-bottom: 10px;
+  color: #000000;
 }
 
 .text-box p{
   margin: 13.5px 0 ;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 22px;
   color: #4A4B4C;
+
 }
 
 /* world-news-right  */
