@@ -155,6 +155,13 @@ ul{
 
 }
 
+.btn-main:hover{
+  opacity: 0.8;
+}
+.btn-main:active{
+  opacity: 0.6;
+}
+
 /* nav link  */
 
 .nav-list {
@@ -172,7 +179,13 @@ ul{
   line-height: 21px;
   color: #7F7F7F;
 }
-
+.nav-item a:hover{
+  color:#4476eb;
+}
+.nav-item a:active{
+  opacity: 0.7;
+  color:#4476eb;
+}
 
 /* MAIN AD  */
 .ad-banner{
@@ -202,7 +215,15 @@ ul{
   font-size: 20px;
   line-height: 26px;
   color: #111;
+  transition: all 0.3s ease-in-out;
+}
 
+.news-title:hover{
+  color:#4476eb;
+}
+.news-title:active{
+  color:#4476eb;
+  opacity: 0.7;
 }
 
 .news-text{
@@ -256,7 +277,10 @@ ul{
 }
 
 /* INDEX World news part  */
-
+.world-news-general{
+  display: flex;
+  margin-bottom: 90px;
+}
 .world-news-general-pro{
   display: flex;
   margin-bottom: 100px;
@@ -314,6 +338,15 @@ ul{
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.news-item-title:hover{
+  color:#4476eb;
+}
+.news-item-title:active{
+  color:#4476eb;
+  opacity: 0.7;
 }
 
 .text-box p{
@@ -356,8 +389,15 @@ ul{
   line-height: 24px;
   color: #000;
   margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
 }
-
+.world-news-right-subtitle:hover{
+  color: #4476eb;
+}
+.world-news-right-subtitle:active{
+  color: #4476eb;
+  opacity: 0.7;
+}
 .world-news-right-source{
   font-weight: normal;
   font-size: 13px;
@@ -464,11 +504,11 @@ footer{
 
 .inside-title{
   font-style: normal;
-font-weight: 500;
-font-size: 26px;
-line-height: 36px;
-color: #000000;
-margin: 30px 0 20px 0;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin: 30px 0 20px 0;
 }
 
 .inside-img{
@@ -491,4 +531,160 @@ margin: 30px 0 20px 0;
   order: 1;
   background-color: #fdfdfd;
   max-width: 797px;
+}
+
+.article-card-devider{
+  margin-bottom: 100px;
+  display: flex;
+
+}
+
+.article-cards{
+  max-width: 393px;
+  padding: 20px 17px;
+  margin: 20px 0;
+  background-color:#EAEAEA;
+  border-radius:15px ;
+  display: flex;
+  flex-direction: column;
+}
+.article-cards:not(:last-child){
+  margin-right: 10px;
+}
+.card-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+  flex-grow: 1;
+
+}
+
+.card-title:hover{
+  color: #4476eb;
+
+}
+.card-title:active{
+  color: #4476eb;
+  opacity: 0.7;
+}
+
+
+
+.card-text{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4A4B4C;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+.scr{
+  margin-right: 10px;
+}
+
+
+.form {
+  margin: 60px 0 ;
+}
+
+.form-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000 ;
+}
+.form-wrapper {
+  display: flex;
+  margin-top: 20px;
+
+}
+.form-side {
+  display: flex;
+  width: 695px;
+  flex-wrap: wrap;
+  margin-right: 10px;
+
+}
+.form-side input{
+  padding: 20px 15px;
+  width: 340px;
+  border-radius:10px;
+  outline: none;
+  border: 1px solid#000 ;
+  margin-bottom: 10px;
+}
+
+.form-side input:focus{
+  border-color: #4476eb;
+}
+.fname {
+  margin-right: 10px;
+}
+
+.email {
+  width: 696px !important;
+}
+
+.message{
+  width: 696px;
+  height: 180px;
+  resize: none;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.message:focus{
+ border-color:#7297EF;
+}
+.btn-submit {
+  padding: 17px 30px;
+  background-color:#7297EF;
+  border-radius:10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  transition: all 0.3s ease-in;
+}
+.btn-submit:hover{
+  opacity: 0.8;
+}
+.btn-submit:active{
+  opacity: 0.6;
+}
+
+
+.address-side {
+  background-color:#F6F6F6;
+  padding: 40px 25px;
+  height: 317px;
+  border-radius:10px;
+}
+
+.address-side hr{
+  margin: 20px 0 ;
+}
+
+.address-title {
+  font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 7px;
+}
+
+
+.address-link{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
 }
