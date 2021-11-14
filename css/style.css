@@ -169,7 +169,7 @@ ul{
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 30px;
+  padding: 30px 0;
   background-color: #fff;
 }
 
@@ -320,12 +320,14 @@ ul{
 }
 .world-news-left-sourse{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-
   color: #5E5F61;
+}
+.main-scr-logo{
+  margin-right: 10px;
 }
 .world-news-left-sourse small{
   margin-right: 5px;
@@ -467,7 +469,7 @@ footer{
   line-height: 19px;
   color: #FFFFFF;
   margin-top: 15px;
-  text-align: justify;
+
 
 }
 
@@ -499,6 +501,10 @@ footer{
   color: #fff;
 
 }
+
+.social-media-icons{
+  display: flex;
+}
 .social-media-icons img {
   margin-right: 25px;
   cursor: pointer;
@@ -525,7 +531,7 @@ footer{
   font-size: 20px !important;
   line-height: 30px;
   color: #000000;
-  margin: 25px 0 50px 0;
+  margin: 25px 0;
 
 }
 
